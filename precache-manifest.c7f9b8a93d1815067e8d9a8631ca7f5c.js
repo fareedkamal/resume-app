@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/resume-app/static/js/runtime~main.6badf656.js"
   },
   {
-    "revision": "8f7b0113c1644278e9296ec7a7608bd7",
-    "url": "/resume-app/static/media/email.8f7b0113.png"
-  },
-  {
     "revision": "dc5161dd5e36744d184e0b98e97d31ba",
     "url": "/resume-app/static/media/man.dc5161dd.png"
+  },
+  {
+    "revision": "8f7b0113c1644278e9296ec7a7608bd7",
+    "url": "/resume-app/static/media/email.8f7b0113.png"
   },
   {
     "revision": "9ac5c449563fbab74fe0978e6dcb7818",
