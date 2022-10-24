@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.gl{
+    gap:30px;
+}
+.gm{
+    gap:15px;
+}
+.gs{
+    gap:10px;
+}
+
+
+
+.fsx{
+    font-size: 12px;
+}
+.fs{
+    font-size: 15px;
+}
+.fm{
+    font-size: 20px;
+}
+.fl{
+    font-size: 30px;
+}
+.fb{
+    font-weight: bold;
+}
+.flx{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+}
+.fc-b{
+    color: #264efc;
+}
+.fc-g{
+    color: grey;
+}
+.fi{
+    font-style: italic;
+}
+
+
+
+.app-container {
+    background-color: #3b3b3b;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.resume {
+    min-height: 900px;
+    height: fit-content;
+    width: 750px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.general {
+    height: 120px;
+}
+.general-sec{
+    flex:1;
+}
+
+.pic {
+    width: 120px;
+    height: 120px;
+    background-image: url(./assets/man.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.education, .experience, .skills{
+    width: 350px;
+}
+
+.education-sec1{
+    justify-content: space-between;
+}
+
+.contact {
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 120px;
+    width: 785px;
+    margin-left: -35px;
+    align-content: center;
+    padding-left: 35px;
+}
+
+
+.textbox{
+    height: fit-content;
+    width: fit-content;
+    padding: 1px 2px;
+}
+.textbox:hover,.textbox:focus{
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+
+.skill {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 4px 10px;
+    white-space:nowrap;
+}
+
+.resume-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+.skill-sec{
+    flex-wrap: wrap;
+}
+
+.resumebtn {
+    height: 50px;
+    width: 129px;
+    position: absolute;
+    left: 0;
+    background-color: #264efc;
+    border: none;
+    color: white;
+    border-radius: 9px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.add-btn {
+    width: 50px;
+    border: none;
+    background-color: #264efc;
+    height: 50px;
+    color: white;
+    font-size: 35px;
+    border-radius: 100%;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    left: -50px;
+}
+
+.experience:hover .add-btn,
+.education:hover .add-btn,
+.skills:hover .add-btn{
+    display: unset;
+}
+
+.experience,.education,.skills{
+    height: fit-content;
+    position: relative;
+}
+
+.wrapper:hover .del-btn{
+    display: unset;
+}
+
+.wrapper{
+    position: relative;
+}
+
+
+.del-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: none;
+    background-color: #f13434;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -15px;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo.mail{
+    background-image: url(./assets/email.png);
+}
+.logo.address{
+    background-image: url(./assets/placeholder.png);
+}
+.logo.phone{
+    background-image: url(./assets/call.png);
+}
+.logo.linkedin{
+    background-image: url(./assets/linkedin.png);
+}
